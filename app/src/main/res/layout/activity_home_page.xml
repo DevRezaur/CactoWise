@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomePage">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/titleTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="@dimen/_15sdp"
+                android:paddingEnd="@dimen/_15sdp"
+                android:paddingTop="@dimen/_10sdp"
+                android:paddingBottom="@dimen/_10sdp"
+                android:text="@string/cactowise"
+                android:background="@color/colorPrimary"
+                android:textColor="@android:color/background_light"
+                android:textSize="@dimen/_16sdp" />
+            <ImageView
+                android:id="@+id/cactusImg"
+                android:layout_width="@dimen/_200sdp"
+                android:layout_height="@dimen/_200sdp"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:contentDescription="@string/cactus"
+                app:srcCompat="@drawable/cactus_one" />
+
+            <TextView
+                android:id="@+id/subTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:gravity="center"
+                android:text="@string/desc_one"
+                android:textSize="@dimen/_12sdp"
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/categoryLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:paddingTop="@dimen/_5sdp"
+                android:paddingBottom="@dimen/_5sdp"
+                android:gravity="center"
+                android:textSize="@dimen/_16sdp"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:text="@string/view_by_category" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:background="@color/colorPrimary"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp" />
+
+            <Button
+                android:id="@+id/gymnocalycium"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginStart="@dimen/_40sdp"
+                android:layout_marginEnd="@dimen/_40sdp"
+                android:textSize="@dimen/_14sdp"
+                android:text="@string/gymnocalycium"
+                android:background="@color/colorPrimary"
+                android:textColor="@android:color/background_light"
+                android:onClick="gymnoPage"/>
+
+            <Button
+                android:id="@+id/astrophytum"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginStart="@dimen/_40sdp"
+                android:layout_marginEnd="@dimen/_40sdp"
+                android:textSize="@dimen/_14sdp"
+                android:text="@string/astrophytum"
+                android:background="@color/colorPrimary"
+                android:textColor="@android:color/background_light"
+                android:onClick="astroPage"/>
+
+            <Button
+                android:id="@+id/echinocactus"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginStart="@dimen/_40sdp"
+                android:layout_marginEnd="@dimen/_40sdp"
+                android:textSize="@dimen/_14sdp"
+                android:text="@string/echinocactus"
+                android:background="@color/colorPrimary"
+                android:textColor="@android:color/background_light"
+                android:onClick="echinoPage"/>
+
+            <Button
+                android:id="@+id/grafted"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginStart="@dimen/_40sdp"
+                android:layout_marginEnd="@dimen/_40sdp"
+                android:textSize="@dimen/_14sdp"
+                android:text="@string/grafted"
+                android:background="@color/colorPrimary"
+                android:textColor="@android:color/background_light"
+                android:onClick="graftedPage"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:background="@color/colorPrimary"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_20sdp"/>
+
+            <Button
+                android:id="@+id/aboutBtn"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_25sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginBottom="@dimen/_20sdp"
+                android:layout_marginStart="@dimen/_40sdp"
+                android:layout_marginEnd="@dimen/_40sdp"
+                android:textSize="@dimen/_12sdp"
+                android:text="@string/about"
+                android:background="@color/colorAccent"
+                android:textColor="@android:color/background_light"
+                android:onClick="aboutPage"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

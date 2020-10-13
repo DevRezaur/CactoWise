@@ -1,0 +1,45 @@
+<resources>
+    <string name="cactowise">CactoWise</string>
+    <string name="cactus">Cactus</string>
+    <string name="developer">Developer</string>
+    <string name="dev_info">Rezaur Rahman\nID:181-15-10595\nSection: E/O12\nBatch: 49th batch\nDepartment of CSE\nDaffodil International University</string>
+    <string name="dev_skill">Java Web Application Developer</string>
+    <string name="start_exploring">Start Exploring</string>
+    <string name="subtitle">Explore the Word of Cactus</string>
+    <string name="desc_one">Welcome to CactoWise. Where you\'ll find all the necessary information about cactus and their requirements.
+        So that you can become a CactoWise. Here you will find information about their species, natural habitat, sun and water requirement.</string>
+    <string name="view_by_category">View By Genus</string>
+    <string name="about">About The Developer</string>
+    <string name="gymnocalycium">Gymnocalycium</string>
+    <string name="astrophytum">Astrophytum</string>
+    <string name="echinocactus">Echinocactus</string>
+    <string name="grafted">Grafted Cactus</string>
+    <string name="overview">Genus Overview</string>
+    <string name="requirement">Plant Requirements</string>
+    <string name="variety">Popular Variety</string>
+    <string name="gymno_overview">Gymnocalycium, commonly called chin cactus, is a genus of about 70 South American species of cactus. The genus name Gymnocalycium (from Greek \"Naked Calyx\") refers to the flower buds bearing no hair or spines.
+        \n\nTheir main area of distribution is Argentina, part of Uruguay, Paraguay, southern Bolivia and part of Brazil. Most species are rather small varying from 4 to 15 centimetres in size.
+        In cultivation they are popular for their easy flowering habits, and the flowers are generally brightly coloured. Where temperatures fall below 10 °C (50 °F) they must be cultivated under glass with heat.</string>
+    <string name="gymno_variety">* Gymnocalycium baldianum\n* Gymnocalycium anisitsii\n* Gymnocalycium eurypleurum\n* Gymnocalycium horstii
+        \n* Gymnocalycium mihanovichii</string>
+    <string name="gymno_requirement">Place: Both indoor and outdoor\n\nLight: Partial sun\n\nLighting hour: 4-6 hours daily\n\nWatering: Once in a week in summer, once in every 15 week in normal weather, no water in winter
+        \n\nFertilising: Apply slow release fertiliser 1-2 times in the growing season only. No fertilising in the winter</string>
+    <string name="astro_overview">The species of the genus Astrophytum usually grow individually with spherical to columnar green shoots and reach heights of up to 1.5 meters. The shoots are often densely covered with fine white tufts of hair,
+        but sometimes they are completely bald. There are four to ten (rarely three) very noticeable ribs that are not divided into cusps. The large areoles stand close together, but do not merge. The spike is variable. Thorns may be present or may be missing entirely.</string>
+    <string name="astro_variety">* Astrophytum asterias\n* Astrophytum capricorne\n* Astrophytum caput-medusae\n* Astrophytum coahuilense
+        \n* Astrophytum myriostigma\n* Astrophytum ornatum</string>
+    <string name="astro_requirement">Place: Prefers outdoor sunny environment\n\nLight: full sun\n\nLighting hour: 6 hours daily\n\nWatering: Once in a week in summer, once in every 15 week in normal weather, no water in winter
+        \n\nFertilising: Apply slow release fertiliser once in the growing season only. No fertilising in the winter</string>
+    <string name="echino_overview">Echinocactus is a genus of cacti in the subfamily Cactoideae. The generic name derives from the Ancient Greek εχινος (echinos), meaning \"spiny\", and cactus. It and Ferocactus are the two genera of barrel cactus.
+        Members of the genus usually have heavy spination and relatively small flowers. The fruits are copiously woolly, and this is one major distinction between Echinocactus and Ferocactus. Propagation is by seed.
+        \n\nPerhaps the best known species is the golden barrel (Echinocactus grusonii) from Mexico, an easy-to-grow and widely cultivated plant. Though common in the houseplant and landscape industry, the golden barrel has become very rare in habitat.</string>
+    <string name="echino_variety">* Echinocactus grusonii\n* Echinocactus texensis\n* Echinocactus horizonthalonius\n* Echinocactus parryi</string>
+    <string name="echino_requirement">Place: Outdoor, sunny light\n\nLight: Full sun\n\nLighting hour: 6-8 hours daily\n\nWatering: Once in a week in summer, once in every 15 week in normal weather, no water in winter
+        \n\nFertilising: Apply slow release fertiliser 1-2 times in the growing season only. No fertilising in the winter</string>
+    <string name="grafted_overview">Grafted cactus is no specific genus. Rather multiple variety of cacti are grafted together to make new plant. So cactus collector graft their cacti for asthetic and experimental purposes.
+        Other graft their cactus for good growth. As grafted cactus grows more quickly.</string>
+    <string name="grafted_variety">As grafted cactus belongs to no fixed genus, they don\'t have any fixed variety. But one of the most popular ones are called moon cactus.</string>
+    <string name="grafted_requirement">Place: Both indoor and outdoor\n\nLight: Partial sun, filtered sun, full sun\n\nLighting hour: 4-6 hours daily\n\nWatering: Grafted cactus are rot prone. So water carefully.
+        Once in a week in summer, once in every 15 week in normal weather, no water in winter
+        \n\nFertilising: Apply slow release fertiliser 1-2 times in the growing season only. No fertilising in the winter</string>
+</resources>

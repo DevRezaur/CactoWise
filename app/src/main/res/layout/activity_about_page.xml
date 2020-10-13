@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutPage">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="@dimen/_15sdp"
+                android:paddingEnd="@dimen/_15sdp"
+                android:paddingTop="@dimen/_10sdp"
+                android:paddingBottom="@dimen/_10sdp"
+                android:text="@string/about"
+                android:textSize="@dimen/_16sdp"
+                android:background="@color/colorPrimary"
+                android:textColor="@android:color/background_light"/>
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="@dimen/_200sdp"
+                android:layout_height="@dimen/_200sdp"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginBottom="@dimen/_20sdp"
+                android:contentDescription="@string/developer"
+                app:srcCompat="@drawable/dev_pic" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="@dimen/_15sdp"
+                android:paddingEnd="@dimen/_15sdp"
+                android:paddingTop="@dimen/_7sdp"
+                android:paddingBottom="@dimen/_7sdp"
+                android:text="@string/dev_skill"
+                android:textSize="@dimen/_16sdp"
+                android:background="@color/colorPrimary"
+                android:textColor="@android:color/background_light"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/dev_info"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginBottom="@dimen/_20sdp"
+                android:paddingStart="@dimen/_30sdp"
+                android:paddingEnd="@dimen/_30sdp"
+                android:gravity="center"
+                android:textSize="@dimen/_14sdp"
+                android:textColor="@color/colorAccent" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
