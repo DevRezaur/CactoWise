@@ -26,18 +26,6 @@ This app isn't much of an app :smile: . But it was my very first android app. So
 
 ![Screenshot 3](https://raw.githubusercontent.com/DevRezaur/CactoWise/main/Project%20Screenshot/Gymno%201.jpg)
 
----
-
-![Screenshot 3](https://raw.githubusercontent.com/DevRezaur/kids-safari-app/main/screenshots/Monkey%20Fragment.jpg)
-
----
-
-![Screenshot 3](https://raw.githubusercontent.com/DevRezaur/kids-safari-app/main/screenshots/Rhino%20Fragment.jpg)
-
----
-
-![Screenshot 3](https://raw.githubusercontent.com/DevRezaur/kids-safari-app/main/screenshots/Tiger%20Fragment.jpg)
-
 ### About
 
 ![Screenshot 4](https://raw.githubusercontent.com/DevRezaur/CactoWise/main/Project%20Screenshot/About.jpg)
