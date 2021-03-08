@@ -4,7 +4,7 @@ This app isn't much of an app :smile: . But it was my very first android app. So
 
 ### Splash Screen
 
-![Screenshot 1](https://raw.githubusercontent.com/DevRezaur/CactoWise/main/Project%20Screenshot/Opening%20Page.jpg)
+![Screenshot 1](https://raw.githubusercontent.com/DevRezaur/CactoWise/main/Project%20Screenshot/Opening%20Page.jpg | width=250)
 
 ### Home Page
 
